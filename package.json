@@ -1,0 +1,12 @@
+{
+  "name": "creator-email-verification-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "tsx src/example.ts",
+    "test": "tsx --test src/creator_signup.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "tsx": "^4.19.2", "typescript": "^5.6.3" }
+}
